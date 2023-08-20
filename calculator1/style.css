@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    width: 39vh;
+    height: 56vh;
+    background-color: black;
+    display: flex;
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10rem 45rem; 
+    border-color: rgb(150, 148, 148);
+    box-shadow: inset;
+}
+input.equal{
+    background-color: rgb(217, 65, 10);
+    border-radius: 1rem;
+}
+form input.operator{
+    color: aqua;
+}
+input:hover{
+    color: grey;
+}
+input:active{
+    transform: translate3d(4px);
+}
+input{
+    background: rgb(0, 0, 0);
+    width: 85px;
+    height: 85px;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 1rem;
+    align-items: center;
+    box-shadow: -8px -5px 15px rgb(68, 68, 68),5px 10px 12px rgb(0, 0, 0) ;
+    
+   
+}
+form .display{
+    width: 37vh;
+    padding-right: 1rem;
+    text-align: right;
+    background: transparent;
+    border: 0;
+    
+
+
+}
