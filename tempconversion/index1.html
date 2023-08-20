@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMP-CONVERSION</title>
+    <link rel="stylesheet" href="/style1.css">
+</head>
+<body>
+    <div class="container">
+        <form id="calcTemp" onsubmit="calculateTemp(); return false">
+        <label for="temp">Enter the temperature to convert <img src="/thermometer.png" alt="" height="60px"></label>
+        
+        <input type="number" name="temp" placeholder="Enter number to convert" id="temp" value="0">
+        <select name="temp_con" id="temp_con">
+            <option value="fah" >Fahrenheit</option>
+            <option value="cel" >Celcius</option>
+        </select><br>
+
+        
+       
+        <input type="submit"  name="temp" id="submit"><br>
+        <span id="result" placeholder="result">result is here</span>
+      
+    </form>
+       
+    </div>
+
+
+    <script src="/java.js"></script>
+</body>
+</html>
